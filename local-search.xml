@@ -8,7 +8,7 @@
     <link href="/2023/04/29/NAT-server/"/>
     <url>/2023/04/29/NAT-server/</url>
     
-    <content type="html"><![CDATA[<h1 id="使用ThinNAT公用服务"><a href="#使用ThinNAT公用服务" class="headerlink" title="使用ThinNAT公用服务"></a>使用ThinNAT公用服务</h1><p>第一行输入此 实例化<br><code>NatHelper Helper = new();</code><br>随后输入以下<br><code>string port = &quot;7000&quot;;     Helper.Free_RunFrpProcessAsync(port);</code><br>port为需要对接的端口<br>Free_RunFrpProcessAsync为免费云主机内穿方法</p><h2 id="若要关闭内穿泽则输"><a href="#若要关闭内穿泽则输" class="headerlink" title="若要关闭内穿泽则输"></a>若要关闭内穿泽则输</h2><p><code>Helper.Close();</code></p><p>前提using<br><code>using Newtonsoft.Json.Linq;</code><br><code>using ThinNAT_NATtraverse;</code></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="使用ThinNAT公用服务"><a href="#使用ThinNAT公用服务" class="headerlink" title="使用ThinNAT公用服务"></a>使用ThinNAT公用服务</h1><p>第一行输入此 实例化<br><code>NatHelper Helper = new();</code><br>随后输入以下<br><code>string port = &quot;7000&quot;;     Helper.Free_RunFrpProcessAsync(port);</code><br>port为需要对接的端口<br>Free_RunFrpProcessAsync为免费云主机内穿方法</p><h2 id="若要关闭内穿泽则输"><a href="#若要关闭内穿泽则输" class="headerlink" title="若要关闭内穿泽则输"></a>若要关闭内穿泽则输</h2><p><code>Helper.Close();</code></p><p>前提using<br><code>using ThinNAT_NATtraverse;</code></p>]]></content>
     
     
     
